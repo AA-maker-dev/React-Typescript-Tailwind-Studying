@@ -19,4 +19,12 @@ console.log(isThatTrue);
 
 //4. Arrays 
 let cars: string[] = ["Audi", "BMW", "Mercedes"];
+let marks: number[] = [90, 80, 70];
 console.log(cars);
+
+
+// 5. Union Types :- allows user to hold more than one variable 
+let usedId: number | string; 
+usedId = 102; 
+usedId = "Abhi"; // It causes error because we have already assigned a number to the variable usedId.
+console.log(usedId);
