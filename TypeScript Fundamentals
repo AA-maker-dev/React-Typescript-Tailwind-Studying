@@ -27,3 +27,15 @@ TypeScript has several commonly used datatypes:
 -void
 -null 
 -undefined
+
+
+Lession 3:- Functions in TypeScript
+--> Reusable block of code that performs a particular tasks. 
+
+function greet(name: string): string
+
+function --> declares a function 
+greet --> function name 
+name: string --> accepts a string 
+: string --> returns a string 
+
