@@ -25,6 +25,6 @@ console.log(cars);
 
 // 5. Union Types :- allows user to hold more than one variable 
 let usedId: number | string; 
-usedId = 102; 
+// usedId = 102; 
 usedId = "Abhi"; // It causes error because we have already assigned a number to the variable usedId.
 console.log(usedId);
