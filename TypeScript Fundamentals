@@ -9,3 +9,21 @@ TypeScript warns you because age was declared as a number.
 This helps catch the mistake before your code runs. 
 
 
+Why use TypeScript: 
+-- Detect errors earlier
+-- Make code easier to understand. 
+-- Improve the code implementation in vs code
+-- Make large project easier to understand
+-- Defines the structure of the application data 
+
+Lession 2:- Basic Data Types
+
+TypeScript has several commonly used datatypes: 
+-string 
+-number
+-boolean 
+-any 
+-unknown
+-void
+-null 
+-undefined
