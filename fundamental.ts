@@ -85,3 +85,21 @@
 //     age: number; 
 //     email?: string;
 // }
+
+// Now you can create a user without an email 
+
+//Type alias in TypeScript
+
+// type Product = { 
+//     name: string; 
+//     price: number; 
+//     inStock: boolean;
+// };
+
+// const Product1: Product = { 
+//     name: "Shampoo",
+//     price: 500, 
+//     inStock: true
+// };
+
+// console.log(Product1);
