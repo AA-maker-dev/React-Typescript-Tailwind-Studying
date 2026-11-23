@@ -29,8 +29,21 @@
 // usedId = "Abhi"; // It causes error because we have already assigned a number to the variable usedId.
 // console.log(usedId);
 
-// Functions in TypeScript
-function greet(name: string): string { 
-    return `Hello, ${name}!`;
-}
-console.log(greet("Abhi"));
+// // Functions in TypeScript
+// function greet(name: string): string { 
+//     return `Hello, ${name}!`;
+// }
+// console.log(greet("Abhi"));
+
+// // Functions with multiple parameters 
+// function calculateTotal(price: number, quantity: number): number { 
+//     return price * quantity; 
+// }
+// const total = calculateTotal(10, 5);
+// console.log(`Total: ${total}`);
+
+// // Arrow functions in TypeScript
+// const greet = (name: string): string => { 
+//     return `Hello, ${name}!`;
+// }
+// console.log(greet("Abhi"));
