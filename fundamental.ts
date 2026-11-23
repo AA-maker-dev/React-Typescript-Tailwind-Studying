@@ -6,7 +6,7 @@
 // // Data Types 
 
 // // 1. String 
-// let username: string = "Abhi"; 
+// let username: string = "R10N1X"; 
 // console.log(username); 
 
 // // 2. Number
@@ -26,14 +26,14 @@
 // // 5. Union Types :- allows user to hold more than one variable 
 // let usedId: number | string; 
 // // usedId = 102; 
-// usedId = "Abhi"; // It causes error because we have already assigned a number to the variable usedId.
+// usedId = "R10N1X"; // It causes error because we have already assigned a number to the variable usedId.
 // console.log(usedId);
 
 // // Functions in TypeScript
 // function greet(name: string): string { 
 //     return `Hello, ${name}!`;
 // }
-// console.log(greet("Abhi"));
+// console.log(greet("R10N1X"));
 
 // // Functions with multiple parameters 
 // function calculateTotal(price: number, quantity: number): number { 
@@ -46,16 +46,28 @@
 // const greet = (name: string): string => { 
 //     return `Hello, ${name}!`;
 // }
-// console.log(greet("Abhi"));
+// console.log(greet("R10N1X"));
 
 // Objects in TypeScript
 const user = { 
-    name: "Abhi",
+    name: "R10N1X",
     age: 22,
     isStudent: true,
-    email: "khatiwadaabhi@gmail.com"
+    email: "R10N1X@gmail.com"
 };
 
 // If we want to define exactly what information an object should contain? 
 // Thats where interfaces come in.
 // Understanding interfaces in TypeScript
+
+interface User { 
+    name: string; 
+    age: number;
+    email: string;
+}
+
+const user1: User = { 
+    name: "R10N1X",
+    age: 22, 
+    email: "R10N1X@gmail.com"
+}
