@@ -48,26 +48,40 @@
 // }
 // console.log(greet("R10N1X"));
 
-// Objects in TypeScript
-const user = { 
-    name: "R10N1X",
-    age: 22,
-    isStudent: true,
-    email: "R10N1X@gmail.com"
-};
+// // Objects in TypeScript
+// const user = { 
+//     name: "R10N1X",
+//     age: 22,
+//     isStudent: true,
+//     email: "R10N1X@gmail.com"
+// };
 
-// If we want to define exactly what information an object should contain? 
-// Thats where interfaces come in.
-// Understanding interfaces in TypeScript
+// // If we want to define exactly what information an object should contain? 
+// // Thats where interfaces come in.
+// // Understanding interfaces in TypeScript
 
-interface User { 
-    name: string; 
-    age: number;
-    email: string;
-}
+// interface User { 
+//     name: string; 
+//     age: number;
+//     email: string;
+// }
 
-const user1: User = { 
-    name: "R10N1X",
-    age: 22, 
-    email: "R10N1X@gmail.com"
-}
+// const user1: User = { 
+//     name: "R10N1X",
+//     age: 22, 
+//     email: "R10N1X@gmail.com"
+// }
+// console.log(user1);
+
+//Interface defines the structure of the user object. 
+// Imagine building a social media application where every user should have a name, age, and email. 
+// Instead of defining these properties repeatedly, you can use the same interface
+
+//Optional Property 
+//Use ? when property is optional or isn't mandatory.
+
+// interface User { 
+//     name: string; 
+//     age: number; 
+//     email?: string;
+// }
