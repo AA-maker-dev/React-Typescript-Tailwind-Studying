@@ -47,3 +47,15 @@
 //     return `Hello, ${name}!`;
 // }
 // console.log(greet("Abhi"));
+
+// Objects in TypeScript
+const user = { 
+    name: "Abhi",
+    age: 22,
+    isStudent: true,
+    email: "khatiwadaabhi@gmail.com"
+};
+
+// If we want to define exactly what information an object should contain? 
+// Thats where interfaces come in.
+// Understanding interfaces in TypeScript

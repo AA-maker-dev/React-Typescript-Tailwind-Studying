@@ -38,3 +38,8 @@ function --> declares a function
 greet --> function name 
 name: string --> accepts a string 
 : string --> returns a string 
+
+
+Lession 4:- Objects in TypeScript 
+
+--> Objects store information using key-value pairs
