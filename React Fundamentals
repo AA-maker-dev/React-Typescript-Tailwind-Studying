@@ -1,0 +1,28 @@
+Lession 6:- What is React?
+
+--> React is a JS library used to create user interfaces. 
+--> Instead of writing one enormous page, React allows us to divide the interface into smaller reusable components. 
+
+--> For example, a website could have: 
+Website
+│
+├── Navbar
+│   ├── Logo
+│   └── NavigationLinks
+│
+├── MainContent
+│   ├── HeroSection
+│   └── ProductList
+│       ├── ProductCard
+│       └── ProductCard
+│
+└── Footer
+
+--> Each section can be its own component. 
+
+--> Why use components? 
+
+-Reuse code.
+-Make projects easier to maintain. 
+-Separate different UI sections. 
+-Update individuals sections without rebuilding the entire interface manually. 
