@@ -43,3 +43,11 @@ name: string --> accepts a string
 Lession 4:- Objects in TypeScript 
 
 --> Objects store information using key-value pairs
+
+-- Use of '?': When a property in a interface is not mandatory. 
+
+Lession 5:- Generics
+
+--> It allows us to write reusable code that works with different data types while preserving types safely. 
+  
+--> Generics becomes particularly useful when working with API reponses, reusable components and custom hooks. 

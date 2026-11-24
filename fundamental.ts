@@ -103,3 +103,21 @@
 // };
 
 // console.log(Product1);
+
+// //Generics 
+// function identity<T>(value: T): T {
+//     return value; 
+// } 
+
+// const name = identity<string>("R10N1X");
+
+// const age = identity<number>(22);
+
+// console.log(name);
+// console.log(age);
+
+// Here T is a placeholder for a type
+// You can also let typescript infer the type automatically
+// const name = identity("R10N1X"); // TypeScript infers that name is of type string
+// const age = identity(22); // TypeScript infers that age is of type number
+
