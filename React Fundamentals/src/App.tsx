@@ -19,8 +19,21 @@ function App() {
   return (
     <div className="App">
       <h1>{name}</h1>
+      <h2> Learning React </h2>
     </div>
   );
 }
 
 export default App;
+
+//The {username} expression insert the variable into the UI. 
+
+
+//Remember these rules: 
+// 1. Components must start with a capital letter.
+// 2. Return a single parent element (or a fragment). 
+// 3. Use className instead of HTML's class attribute.
+// 4. Close JSX elements properly (e.g., <img />, <input />).
+// 5. Use curly braces {} to embed JavaScript expressions within JSX.
+
+//

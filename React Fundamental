@@ -28,7 +28,13 @@ Website
 -Update individuals sections without rebuilding the entire interface manually. 
 
 
-Lession 7:- Create our first react component
+Lession 7:- Create our first react component:
+See the results in: 
+
+1. Go to terminal 
+2. cd React Fundamentals 
+3. npm run dev 
+4. Main code is on /src/app.tsx
 
 
 
